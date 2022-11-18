@@ -1,4 +1,29 @@
-
-body {
-    background-color: brown;
+/* here is to remove all styling from Markup*/
+*{
+    margin :0;
+    padding :0;
+    border :0;
+    outline :0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
+    
+
+  /* declear the color uses( https://coolors.co/ - Color palette generator)*/  
+:root{
+--color-primary : #006400;
+--color-success : #004b23;
+--color-warning : #007200;
+--color-danger : #c94b4b;
+--color-danger-variant :rgba(247,88,66,0.4);
+--color-white : #fff;
+--color-light :rgba(255,255,255,0.7);
+--color-black: #000;
+--color-bg : #008000;
+--color-bg1 : #38b000;
+--color-bg2 : #70e000;
+--color-bg3 : #9ef01a;
+ }
+
+ 
