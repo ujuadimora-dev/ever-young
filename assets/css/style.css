@@ -26,4 +26,63 @@
 --color-bg3 : #9ef01a;
  }
 
+ body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    color:var(--color-black);
+    background:var(--color-white);
+}
+ /*.............styling- header-----*/
+ header {
+    height: auto;
+    width: 100%;
+    background-color: red;
+    border-style: dotted;
+    
+ }
+nav {
+    text-align: right;
+    margin-right: 180px;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo-img{
+    height: auto;
+    width: 100px;
+}
+div h2 {
+    font-weight: 600;
+    color: #008000;
+    margin: 0 6px;
+}
+
+ nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+nav ul li {
+    display: inline;
+    margin: 8px;
+    padding: 0 4px;
+    font-weight: 300px;
+    color: var(--color-black)
+    
+
+}
+nav ul li a{
+    color: var(--color-black);
+ }
+
+ nav ul li a:hover{
+    color: var(--color-danger);
+ }
+    
+ 
+
+
+    
  
