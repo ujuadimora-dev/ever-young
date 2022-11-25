@@ -321,11 +321,10 @@
   .about-3 h1{
     text-align: center;
     font-size:45px
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding:3% 0;
+    
+    
   }
-   
-  
   .about-3-right h1{
     text-align: left;
     color: green;
