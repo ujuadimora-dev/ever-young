@@ -142,6 +142,225 @@
   .main-right{
     padding-top: 4%;
   }
+  /* about styling---*/
+.sec-about{
+    text-align: center;
+    padding-top: 3%;
+    width: 100%;
+    height: auto;
+  }
+  .sec-about h1, h3 {
+    font-size: 30px;
+  }
+  .about-wrap{
+    width:100%;
+    height: auto;
+    margin-top: 1%;
+    background-color:transparent;
+  }
+  .about-1{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: auto;
+    height: 400px;
+    background-color: transparent;
+   }
+    
+  .about-img{
+    float: left;
+    width: 50%;
+    margin-top: 3%;
+    background-color: transparent;
+  } 
   
+  .image-left {
+    display: block;
+      width: 50%;
+      height: 100%;
+      margin-top: 3%;
+      margin-left: auto;
+      margin-right: 5px;
+      padding:3px 3px;
+      border:6px solid #fff;
+      box-shadow: 10px 10px 10px grey;
+  }
+  
+   
+  .about-right {
+    float: right;
+    width: 50%;
+    margin-top: 3%;
+    background-color: transparent
+  }
+  .about-right h1{
+    text-align: left;
+    color: green;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: auto;
+    padding:3px 3px;
+    line-height: normal;
+  }
+  .about-right p {
+    text-align: left;
+    margin-left: 5px;
+  }
+  .button-about {
+    text-align: left;
+    padding:1% 15%;
+  }
+  .btn-about {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* center about*/
+  .about-2{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+   }
+  .about-center{
+    float: left;
+    width: 50%;
+    background-color: transparent;
+   }
+   .about-center h1{
+    text-align: left;
+    color: green;
+    margin-top: 9%;
+    margin-left: 40%;
+    margin-right: auto;
+    padding:3px 3px;
+    line-height: normal
+  }
+   
+  .about-center p {
+    text-align: justify; 
+    margin-left: 40% 
+  }
+  .button-center {
+    text-align: right;
+    margin-right:35%;
+    padding-top: 2%;
+  }
+  
+  .btn-about {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+    
+  .about-img-center{
+    float: right;
+    width: 50%;
+    background-color: transparent;;
+  } 
+  
+  .image-right-center {
+    display: block;
+      width: 50%;
+      height: 100%;
+      margin-top: 10%;
+      margin-right: auto;
+      border:6px solid #fff;
+      box-shadow: 10px 10px 10px grey;
+  }
+  
+  /* about 3 styling */
+  
+  .about-3{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 400px;
+    background-color: transparent;
+   }
+    
+  .about-3-img{
+    margin-right: 50%;
+    width: 50%;
+    margin-top: 25%;
+    background-color: transparent;
+  } 
+  
+  .image-3-left {
+    display: block;
+      width: 50%;
+      height: 100%;
+      margin-top: 3%;
+      margin-left: auto;
+      margin-right: 2px;
+      padding:3px 3px;
+      border:6px solid #fff;
+      box-shadow: 10px 10px 10px grey;
+  }
+  
+  .about-3-right {
+    float: right;
+    width: 50%;
+    margin-top: 1%;
+    background-color: transparent;
+  }
+  .about-3 h1{
+    text-align: center;
+    font-size:45px
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+   
+  
+  .about-3-right h1{
+    text-align: left;
+    color: green;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: auto;
+    padding:3px 3px;
+    line-height: normal;
+  }
+  .about-3-right p {
+    text-align: left;
+    margin-left: 5px;
+  }
+  .button-3-about {
+    text-align: left;
+    padding:1% 15%;
+  }
+  .btn-3-about {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #img3{
+    margin-top: 3%;
+    
+  }
+  #text3 {
+    margin-top: 3%;
+  }
     
  
