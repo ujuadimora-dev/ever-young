@@ -89,6 +89,59 @@
     margin: 4px 2px;
   } 
 
-
+/* stling the main section */
+.main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    padding:2px 4px;
+    background: transparent;
+  }
+  .main-left{
+    float: left; 
+    width: 50%
+  }
+  
+  #main {
+    text-align: justify;
+    margin-left: 60px;
+    font-size: 45px;
+    padding: 25px 5px;
+    line-height: normal;
+  }
+  #para{
+    text-align: justify;
+    margin-left: 65px;
+    margin-top:30px;
+  }
+  span{
+    color:orange;
+    font-size: 20px;
+    font-style: bold;
+  }
+  .button{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .btn {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  .btn:hover{
+    color: orange;
+  }
+  .main-right{
+    padding-top: 4%;
+  }
+  
     
  
