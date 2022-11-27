@@ -23,7 +23,7 @@
 --color-bg : #008000;
 --color-bg1 : #38b000;
 --color-bg2 : #70e000;
---color-bg3 : #9ef01a;
+--color-btn : rgb(72, 122, 101);
  }
 
  body{
@@ -43,12 +43,18 @@
   header{
     margin: 0 0 0 1px;
     min-width: 100vw;
-    background-color: transparent;
+    height: 98px;
   }
+
   header nav{
-    margin: 0 0 0 1px;
+     margin: 0 0 0 1px;
     display: flex;
     align-items: center;
+    width: 100%;
+    height: 130px;
+    background-color:rgb(250, 244, 255);
+    position: fixed;
+    
     justify-content: space-around;
   }
   .logo{
@@ -82,7 +88,7 @@
     color: var(--color-danger);
   }
   nav ul li a.active {
-    background-color: #4CAF50;
+    background-color: var(--color-btn);
     color: white;
     padding: 15px 32px;
     font-size: 16px;
@@ -125,7 +131,7 @@
     margin-top: 50px;
   }
   .btn {
-      background-color: #4CAF50; /* Green */
+      background-color: var(--color-btn); /* Green */
       border: none;
       color: white;
       padding: 15px 32px;
@@ -195,7 +201,7 @@
   }
   .about-right h1{
     text-align: left;
-    color: green;
+    color: var(--color-btn);
     margin-top: 20px;
     margin-left: 5px;
     margin-right: auto;
@@ -211,7 +217,7 @@
     padding:1% 15%;
   }
   .btn-about {
-    background-color: #4CAF50; /* Green */
+    background-color: var(--color-btn);/* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -236,7 +242,7 @@
    }
    .about-center h1{
     text-align: left;
-    color: green;
+    color: var(--color-btn);
     margin-top: 9%;
     margin-left: 40%;
     margin-right: auto;
@@ -255,7 +261,7 @@
   }
   
   .btn-about {
-    background-color: #4CAF50; /* Green */
+    background-color: var(--color-btn); /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -324,7 +330,7 @@
   }
   .about-3-right h1{
     text-align: left;
-    color: green;
+    color: var(--color-btn);
     margin-top: 20px;
     margin-left: 5px;
     margin-right: auto;
@@ -340,7 +346,7 @@
     padding:1% 15%;
   }
   .btn-3-about {
-    background-color: #4CAF50; /* Green */
+    background-color: var(--color-btn); /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -399,6 +405,30 @@
   .footer-links a:hover{
     color: black;
   }
+  i{
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  }
+  
+  .fab{
+    width: 30px;
+    height:30px;
+    font-size: 20px;
+    border-radius:  50%;
+    text-align: center;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook , .fa-instagram , .fa-twitter-square, .fa-youtube-square{
+  background:var(--color-btn);
+  color: white;
+   
+}
+
   .end{
     text-align: center;
     color:var(--color-black);   
