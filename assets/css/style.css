@@ -52,7 +52,7 @@
     align-items: center;
     width: 100%;
     height: 130px;
-    background-color:red;
+    background-color:transparent;
     position: fixed;
      justify-content: space-around;
   }
@@ -96,14 +96,14 @@
 
 /* stling the main section */
 .main{
-  position:absolute;
+  
     width: 100%;
-    height: 700px;
-    background-color: blue;
+    height: auto;
+    background-color: rgb(250, 244, 255);;
     overflow: hidden;
     clear: both;
     padding: top 20%;
-    background: transparent;
+    
   }
   .main-left{
     float: left; 
@@ -114,7 +114,8 @@
     text-align: justify;
     margin-left: 60px;
     font-size: 45px;
-    padding: 25px 5px;
+    /*padding: 25px 5px; */
+    padding-top: 15%;
     line-height: normal;
   }
   #para{
@@ -147,7 +148,7 @@
     color: orange;
   }
   .main-right{
-    padding-top: 4%;
+    padding-top: 8%;
   }
   /* about styling---*/
 .sec-about{
@@ -156,7 +157,11 @@
     width: 100%;
     height: auto;
   }
-  .sec-about h1, h3 {
+  .sec-about h1 {
+    padding-top: 2%;
+    font-size: 30px;
+  }
+  .sec-about h3 {
     font-size: 30px;
   }
   .about-wrap{
@@ -368,7 +373,8 @@
 
   /* footer styling */
   footer{
-    height: 60vh;
+    width: 100%;
+    height: 80vh;
     background-color: rgb(250, 244, 255);
     padding: 0 100px 100px 0;
   }
@@ -406,12 +412,25 @@
   .footer-links a:hover{
     color: black;
   }
+  .footer-media {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 3;
+    
+    
+  
+  }
   i{
   font-size: 20px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  text-align: center;
+  margin: 3%;
+  
+  
+  
   }
   
   .fab{
@@ -419,7 +438,8 @@
     height:30px;
     font-size: 20px;
     border-radius:  50%;
-    text-align: center;
+    
+
   }
   .fa:hover {
     opacity: 0.7;
@@ -432,7 +452,8 @@
 
   .end{
     text-align: center;
-    color:var(--color-black);   
+    color:var(--color-black); 
+    padding-top: 5%;  
   }
 
   /* style the form; sign up form*/
