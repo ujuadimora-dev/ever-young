@@ -35,7 +35,7 @@
  /*.............styling- header-----*/
  .menu-header{
     background-color:rgb(250, 244, 255);
-    height: auto;
+    height: 130px;
     width: 100%;
     padding-bottom: 5%;
   
@@ -52,10 +52,9 @@
     align-items: center;
     width: 100%;
     height: 130px;
-    background-color:rgb(250, 244, 255);
+    background-color:red;
     position: fixed;
-    
-    justify-content: space-around;
+     justify-content: space-around;
   }
   .logo{
     display: flex;
@@ -97,11 +96,13 @@
 
 /* stling the main section */
 .main{
+  position:absolute;
     width: 100%;
-    height: auto;
+    height: 700px;
+    background-color: blue;
     overflow: hidden;
     clear: both;
-    padding:2px 4px;
+    padding: top 20%;
     background: transparent;
   }
   .main-left{
@@ -151,7 +152,7 @@
   /* about styling---*/
 .sec-about{
     text-align: center;
-    padding-top: 3%;
+    padding-top: 30%;
     width: 100%;
     height: auto;
   }
@@ -437,15 +438,21 @@
   /* style the form; sign up form*/
   .form-section {
     clear: left;
-    background: url("../images/pexels-ketut-subiyanto-4126799-removebg-preview-removebg-preview.png");
-    background: size 30px;
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-right: 15%;
-    margin-top: 1px;
-    height: 700px;
+    width: 100%;
+    height: auto;
+    background-color: #238665;
+  }
+    .sig-image {
+      float: right;
+      width:35%;
+      height: 40%;
+      padding-right: 15%;
+      padding-top: 7%;
+      
+
+    }
     
- }
+ 
  .signup-form {
     margin:150px 10% 0 5%; 
     color: #fff;
@@ -453,7 +460,7 @@
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 60px;
+    padding: 40px;
  }
  .signup-form h2 {
     color: #fafafa;
