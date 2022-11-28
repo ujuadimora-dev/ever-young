@@ -437,19 +437,23 @@
   /* style the form; sign up form*/
   .form-section {
     clear: left;
-    background: url("../images/alovera1.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+    background: url("../images/pexels-ketut-subiyanto-4126799-removebg-preview-removebg-preview.png");
+    background: size 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 15%;
+    margin-top: 1px;
+    height: 700px;
+    
  }
  .signup-form {
-    margin:150px 10% 0 0; 
+    margin:150px 10% 0 5%; 
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 30px;
+    padding: 60px;
  }
  .signup-form h2 {
     color: #fafafa;
