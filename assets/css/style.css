@@ -519,47 +519,68 @@
 
  /* style Blog page*/
  /* Header/Blog Title */
-.header {
+.header-blog {
   padding: 30px;
   font-size: 40px;
   text-align: center;
   background: white;
 }
-.header img {
+.header-blog img {
   width: 100%;
   height: 700px;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {
+.leftcolumn-blog {
   float: left;
   width: 75%;
 }
 
+.left-blog1 {
+  float: left;
+  width: 40%;
+  height: auto;
+  margin-left: 15%;
+}
+.left-blog2 {
+  float: right;
+  width: 30%;
+  height: auto;
+  margin-right: 15%;
+}
+
+.left-blogcenter {
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+
 /* Right column */
-.rightcolumn {
+.rightcolumn-blog {
   float: left;
   width: 25%;
   padding-left: 20px;
 }
 
 /* Fake image */
-.fakeimg {
+.blog-img {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
-.card {
+.main-blog {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row-blog:after {
   content: "";
   display: table;
   clear: both;
