@@ -53,7 +53,6 @@
     width: 100%;
     height: 130px;
     background-color:transparent;
-    position: fixed;
      justify-content: space-around;
   }
   .logo{
@@ -99,7 +98,7 @@
   
     width: 100%;
     height: auto;
-    background-color: rgb(250, 244, 255);;
+    background-color: rgb(250, 244, 255);
     overflow: hidden;
     clear: both;
     padding: top 20%;
@@ -397,77 +396,63 @@
   .footer-links h3{
     margin-bottom: 10px;
     color:var(--color-black);
-    font-size: 17px;
+    font-size: 20px;
   }
   .footer-links a{
     color: var(--color-black);
     text-decoration: none;
     margin: 6px 0;
     text-align: left;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 550;
     transition: 0.3ms ease-in-out;
   }
   
   .footer-links a:hover{
-    color: black;
-  }
-  .footer-media {
-    width: 100%;
-    
-  }
-  .media {
-    float: right;
-    width: 50%;
-    text-align: center;
-    padding-top: 5%;
-  }
-
-  .end {
-    float: left;
-    width: 50%;
-    margin-left: 15%;
-    padding-top: 5%;
-
-
-    
-  }
-  .end p{
-    font-weight: 600;
-    line-height: 5px;
-    margin-top: -10%;
-  }
- 
-  i{
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  
-  
-  
+    color: rgb(110, 16, 16);
   }
   
-  .fab{
-    width: 30px;
-    height:30px;
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  } 
+  .fa {
+    padding: 10px;
     font-size: 20px;
-    margin-right: 15px;
-    border-radius:  50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 1%;
+    margin-left: 15%;
     
-
+    
   }
-  .fab:hover {
-    opacity: 2;
-    background-color: #007200;
-}
-.fa-facebook , .fa-instagram , .fa-twitter-square, .fa-youtube-square{
-  background:var(--color-btn);
-  color: white;
-   
-}
-
-
 
   /* style the form; sign up form*/
   .form-section {
