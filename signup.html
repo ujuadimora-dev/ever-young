@@ -35,7 +35,7 @@
         </header>
     </div>
     <section class="form-section">
-        <form method="POST" action="index.html" class="signup-form">
+        <form class="signup-form">
             <h2>Let us keep in contact!<i class="fa fa-heartbeat"></i></h2>
             <label for="fname">First Name</label>
             <input id="fname" name="first_name" type="text" class="text-input" required>
@@ -48,18 +48,25 @@
             
             <label for="weekly">Weekly Newsletter</label>
             <input type="radio" id="weekly" name="subcription_preference" value="weekly" required>
-            <label for="monthly">monthly Newsletter</label>
+            <label for="monthly">Monthly Newsletter</label>
             <input type="radio" id="monthly" name="subcription_preference" value="monthly" required>
             <label for="yearly">Yearly Newsletter</label>
             <input type="radio" id="yearly" name="subcription_preference" value="yearly" required>
             <br>
-            <textarea rows="4" cols="45" name="comment" form="usrform">
+            <textarea id="msg" rows="6" cols="45" name="comment" form="usrform">
              comment here...</textarea>
-
-            
-            <input class="join-button" type="submit"  value="submit!">
+            <input class="join-button" id="submit" type="submit" onclick="message ()" value="submit!">
+            <div class="message">
+                <div class="success" id="success">
+                    Your message is Sucessful sent!
+                </div>
+                <div class="danger" id="danger">
+                    feild can't be empty
+                </div>
+            </div>
             
         </form>
+        
     </section>
 
 
@@ -74,6 +81,7 @@
     <!---add fontawsone kit--->
     <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
 
+    <script src="./assets/response.js"> </script>
 </body>
 
 </html>

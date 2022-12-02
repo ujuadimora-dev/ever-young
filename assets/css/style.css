@@ -184,7 +184,6 @@
     margin-top: 3%;
     background-color: transparent;
   } 
-  
   .image-left {
     display: block;
       width: 50%;
@@ -501,11 +500,43 @@
  }
  .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
-    
+    color: #f16c6b;   
  }
- 
- 
+ .message{
+  width:100%;
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+ }
+.message .success{
+  font-size: 20px
+  color var(--color-success);
+  position: absolute;
+  animation: buttons .3s linear;
+  display: none;
+}
+.message .danger {
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  transition: 3s;
+  animation: buttons .3s liner;
+  display: none;
+
+}
+
+@keyframes join-button {
+  0%{
+    transform : scala(0.1);
+  }
+  50%{
+    transform : sacle(0.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
 
  /* style Blog page*/
  /* Header/Blog Title */
