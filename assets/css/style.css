@@ -542,7 +542,24 @@
  /* Header/Blog Title */
 .header-blog {
   position: relative;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background-color: transparent;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  top: 4px;
   
+ }
+.header-blog:hover {
+    animation-name: colorchange;
+    animation-duration: 0.7s;
+    animation-delay: 2s;
+  }
+  
+@keyframes colorchange {
+  from {background-color: red;}
+  to {background-color: yellow;}
 }
 .text-block{
   width: 23%;
@@ -552,7 +569,7 @@
   right: 20px;
   margin-right: 30%;
   background-color: var(--color-primary);
-  opacity: 0.7;
+  opacity: 0.5;
   color: var(--color-white);
   padding-left: 20px;
   padding-right: 20px
@@ -561,11 +578,25 @@
   text-align: center;
   font-size: 17px;
 }
+.text-block h2 {
+  font-weight: bold;
+}
+.text-block h3 {
+  margin: 3% 3%;
+  text-align: center;
+}
 
 .header-blog img {
-  width: 100%;
-  height: 700px;
-}
+  width: 85%;
+  height: 620px;
+  margin-top: 5%;
+  margin-left: 8%;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(175, 102, 19, 0.19);
+
+  
+  
+} 
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
