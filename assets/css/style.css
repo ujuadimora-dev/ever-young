@@ -541,11 +541,27 @@
  /* style Blog page*/
  /* Header/Blog Title */
 .header-blog {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: white;
+  position: relative;
+  
 }
+.text-block{
+  width: 23%;
+  height: 30%;
+  position: absolute;
+  bottom: 320px;
+  right: 20px;
+  margin-right: 30%;
+  background-color: var(--color-primary);
+  opacity: 0.7;
+  color: var(--color-white);
+  padding-left: 20px;
+  padding-right: 20px
+}
+.text-block {
+  text-align: center;
+  font-size: 17px;
+}
+
 .header-blog img {
   width: 100%;
   height: 700px;
