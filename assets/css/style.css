@@ -31,7 +31,7 @@
     font-family: 'Lato', sans-serif;
     line-height: 1.7;
     color:var(--color-black);
-    background:var(--color-white);
+    /*background:var(--color-white);*/
 }
  /*.............styling- header-----*/
  .menu-header{
@@ -695,11 +695,43 @@
 }
 
 
+ /* Responsiveness*/
+ /* media quieries--*/
+
+ /*For Mobile devices: 320px-480px.*/
+@media screen and  (min-width: 320px) and (max-width: 480px) {
+  .menu-header{
+    background-color: blue
+  }
+}
+
+
+/* --for medium screen sizes 481px — 768px: iPads, Tablets.*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .menu-header{
+    background-color:red;
+
+  }
+}
  
- 
- 
-  
-  
-   
-    
- 
+
+
+/* for labtop, small screen 769px — 1024px*/
+
+@media screen and (min-width: 760px) and (max-width: 1042px) {
+  .menu-header{
+    background-color: yellow;
+  }
+}
+
+
+/*1025px — 1200px: Desktops, large screens.*/
+
+@media  screen and (min-width: 1025px) and (max-width: 1400px) {
+  .menu-header{
+    background-color: green;
+  }
+}
+
+
