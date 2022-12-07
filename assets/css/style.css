@@ -662,7 +662,19 @@
   background: #ddd;
   margin-top: 20px;
 }
+/* syling thank you Message*/
+.thank-u  {
+  max-width: 2%;
+  max-height: 3%;
+  padding: 3rem 3rem;
+  margin-top: 5%;
+  margin-left: 30%;
 
+}
+.thank-u img {
+  max-width: 320px;
+  max-height: 320px;
+} 
 
  /* Responsiveness*/
  /* media quieries--*/
