@@ -630,7 +630,7 @@ span{
 /* form style */
 .form-section {
   clear: left;
-  background-image: url("../images/form-bgr.jpg");
+  background-image: url("../images/form-bg.jpg");
   background-size: cover;
   background-position: center;
   height: 900px;
