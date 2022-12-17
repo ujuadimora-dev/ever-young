@@ -310,7 +310,14 @@ p[data-width="wide"] {
 /* Float four columns side by side */
 .blog-column {
   float: left;
-  width: 45%;
+  width: 30%;
+  margin-left: 12.5%;
+  padding: 0 10px;
+}
+.blog-column-testimony{
+  float: left;
+  width: 17%;
+  margin-left: 11%;
   padding: 0 10px;
 }
 
@@ -326,14 +333,15 @@ p[data-width="wide"] {
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .blog-column {
+  .blog-column , .blog-column-testimony{
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
+  
 }
 
-/* Style the counter cards */
+/* Style the blog container */
 .blog {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px ;
@@ -350,6 +358,7 @@ text-align: center;
 margin-left: 20%;
 
 }
+
 
 
 
