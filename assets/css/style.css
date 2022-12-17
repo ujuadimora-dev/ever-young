@@ -308,6 +308,16 @@ p[data-width="wide"] {
 /*blog*/
 
 /* Float four columns side by side */
+/* Centered text */
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(242, 162, 23);
+  color: #006400;
+  
+  transform: translate(-50%, -50%);
+}
 .blog-column {
   float: left;
   width: 30%;
@@ -358,6 +368,7 @@ text-align: center;
 margin-left: 20%;
 
 }
+
 
 
 
