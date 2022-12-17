@@ -415,10 +415,10 @@ margin-left: 20%;
 
 
 @media screen and (max-width: 320px) {
-  .blog-column , .blog-column-testimony{
+  .blog-column , .blog-column-testimony, .blog{
       
     float: left;
-    width: 100%;
+    width: 30%;
   
   }
 
