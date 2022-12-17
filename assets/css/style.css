@@ -381,61 +381,6 @@ p[data-width="wide"] {
   display: table;
   clear: both;
 }
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .blog-column , .blog-column-testimony{
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-  
-  .text-block{
-   display: none;
-  }
-}
-@media screen and (max-width: 50em) {
-  .blog-column , .blog-column-testimony{
-    width: 40%;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-  
-  .text-block{
-   display: none;
-  }
-}
-
-
-
-@media screen and (max-width: 320px) {
-  .blog-column , .blog-column-testimony{
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-  
-  .text-block{
-   display: none;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .blog-column , .blog-column-testimony{
-    width: 48%;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-  
-  
-}
-
-
-
-
 /* Style the blog container */
 .blog {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -455,6 +400,54 @@ margin-left: 20%;
 }
 
 
+/* Responsive columns */
+
+@media screen and (max-width: 50em) {
+  .blog-column , .blog-column-testimony{
+    width: 40%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 320px) {
+  .blog-column , .blog-column-testimony{
+      
+    float: left;
+    width: 100%;
+  
+  }
+
+  .blog img{
+    width:100vw;
+  }
+
+  #copy-right{
+    text-align: center;
+  }
+  
+  .text-block{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .blog-column , .blog-column-testimony{
+    width: 48%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  #copy-right{
+    text-align: center;
+  }
+  
+}
 
 
 
