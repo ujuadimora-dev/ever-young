@@ -18,27 +18,34 @@
 </head>
 
 <body>
-    <header class="primary-header">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="index.html"><img src="./assets/images/logoever1.png" alt="Ever Joung logo"></a>
-          <!--Here is the markup for the mobile toggling and aria here is because of the screen reader-->
-          <button class=" mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <img class=" icon-hamburger" src="./images/icons8-medium-icons-24.png" alt="" aria-hidden="true">
-            <img class="icon-close" src="./images/icons8-stornieren.svg" alt="" aria-hidden="true">
-            <span class="visually-hidden">menu</menu></span>
-          </button>
-          <nav class="primary-navigation">
-            <ul aria-label="Primary" role="list" class="nav-list" id="primary-navigation">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a class="active" href="signup.html">Contact Us</a></li>
-            </ul>
-          </nav>
-          <button class="button | display-sm-none display-md-inline-flex">Signup</button>
-        </div>
+   <!--here is the markup for Nav elemnents and logo and the logo is link to Home page-->
+
+<body>
+  <!--Here is the makeup for the Nav element-->
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html"><img src="./assets/images/logo-ever.png" alt="Ever Joung logo"></a>
+        <!--Here is the markup for the mobile toggling buttons and aria here is because of the screen reader-->
+        <button class=" mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img class=" icon-hamburger" src="./assets/images/icon-open.png" alt="" aria-hidden="true">
+          <img class="icon-close" src="./assets/images/icon-close.png" alt="" aria-hidden="true">
+        <!--This is to hide the menu visible-->
+          <span class="visually-hidden">menu</menu></span>
+        </button>
+        <nav class="primary-navigation">
+          <ul  class="nav-list">
+            <!--The aria make it possible for the screen reader assesebility-->
+            <li><a class="active" href="index.html"aria-label="Go to the Top of the page">Home</a></li>
+            <li><a href="blog.html" aria-label="Go to the Blog page to get tips">Blog</a></li>
+            <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="button | display-sm-none display-md-inline-flex"> <a href="./signup.html"> Signup</a></button>
       </div>
-    </header>
+    </div>
+  </header>
+  <!--Here end the makeup for the Nav element-->
     <section class="form-section">
       <form action="thank-you.html" class="signup-form">
         <h2>Let's be in contact!<i class="fas fa-heartbeat"></i></h2>
@@ -66,30 +73,39 @@
     </section>
   
   
+    <!-- Here is the markup for the footer-->
     <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
       <div class="container">
         <div class="even-columns">
-          <div>
-            <a href="index.html"><img src="./assets/images/logoever1.png" alt="everyoung logo"></a></li>
+          <div id="img-footer">
+            <a href="index.html"><img src="./assets/images/logo-ever.png"   alt="everyoung logo"></a></li>
             <ul class="social-list padding-block-700 ">
               <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our facebook page (opens in a new tab)" class="fa fa-facebook"></a></li>
+                  aria-label="Visit our facebook page (opens in a new tab)" class="fa fa-facebook"></a>
+              </li>
               <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our Twitter page (opens in a new tab)" class="fa fa-twitter"></a></li>
+                  aria-label="Visit our Twitter page (opens in a new tab)" class="fa fa-twitter"></a>
+              </li>
               <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our linkedin page (opens in a new tab)" class="fa fa-linkedin"></a></li>
+                  aria-label="Visit our linkedin page (opens in a new tab)" class="fa fa-linkedin"></a>
+              </li>
               <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our youtube page (opens in a new tab)" class="fa fa-youtube"></a></li>
+                  aria-label="Visit our youtube page (opens in a new tab)" class="fa fa-youtube"></a>
+              </li>
             </ul>
           </div>
           <div>
+            
             <nav class="footer-nav">
-              <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="signup.html">Contact Us</a></li>
+              <ul>
+                <li><a href="index.html"aria-label="Go to the top page">Home</a></li>
+                <li><a href="blog.html"aria-label="Go to the Blog page">blog</a></li>
+                <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+
+                <!-- These below are useful links that help me alot- I also encourage you to go through them-->
                 <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener"
-                    aria-label="Visit stackoverflow page (opens in a new tab)"> Stack overflow</a></li>
+                    aria-label="Visit stackoverflow page (opens in a new tab)"> Stack overflow</a>
+                </li>
                 <li><a href="https://www.freepik.com/" target="_blank" rel="noopener"
                     aria-label="Visit freepik page (opens in a new tab)">freepik</a></li>
                 <li><a href="https://wave.webaim.org" target="_blank" rel="noopener"
@@ -97,21 +113,23 @@
                 <li><a href="https://undraw.co/illustrations" target="_blank" rel="noopener"
                     aria-label="undraw page (opens in a new tab)"> undraw</a></li>
                 <li><a href="https://coolors.co" target="_blank" rel="noopener"
-                    aria-label="Visit  color palette page (opens in a new tab)"> palette generator</a></li>
+                    aria-label="Visit  color palette page (opens in a new tab)"> palette
+                    generator</a></li>
                 <li><a href="https://usersnap.com/blog/background-webdesign/ " target="_blank" rel="noopener"
-                    aria-label="Visit usersnap page (opens in a new tab)">Usersnap</a></li>
+                    aria-label="Visit usersnap page (opens in a new tab)">Usersnap</a>
+                </li>
                 <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener"
                     aria-label="Visit  w3school  (opens in a new tab)">w3school</a></li>
               </ul>
             </nav>
           </div>
           <div>
-  
-            <p class="padding-block-700">copy right and &copy; 2022 coding @adimorauju@gmail.com</p>
-  
-    <!---fontawsone kit--->
-    <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
-  
+
+            <p class="padding-block-700" id="copy-right">copy right and &copy; 2022 coding @adimorauju@gmail.com</p>
+
+            <!---fontawsone kit--->
+            <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
+
   </body>
-  
-  </html>
+
+</html>

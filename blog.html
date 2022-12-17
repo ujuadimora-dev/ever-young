@@ -22,27 +22,34 @@
 
   <body>
     <!-- here is the markup for the nav elements and logo-->
-    <header class="primary-header">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="index.html"><img src="./assets/images/logoever1.png" alt="Ever Joung logo"></a>
-          <!--Here is the markup for the mobile toggling and aria here is because of the screen reader-->
-          <button class=" mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <img class=" icon-hamburger" src="./images/icons8-medium-icons-24.png" alt="" aria-hidden="true">
-            <img class="icon-close" src="./images/icons8-stornieren.svg" alt="" aria-hidden="true">
-            <span class="visually-hidden">menu</menu></span>
-          </button>
-          <nav class="primary-navigation">
-            <ul aria-label="Primary" role="list" class="nav-list" id="primary-navigation">
-              <li><a href="index.html">Home</a></li>
-              <li><a class="active" href="blog.html">Blog</a></li>
-              <li><a href="signup.html">Contact Us</a></li>
-            </ul>
-          </nav>
-          <button class="button | display-sm-none display-md-inline-flex">Signup</button>
-        </div>
+    <!--here is the markup for Nav elemnents and logo and the logo is link to Home page-->
+
+<body>
+  <!--Here is the makeup for the Nav element-->
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html"><img src="./assets/images/logo-ever.png" alt="Ever Joung logo"></a>
+        <!--Here is the markup for the mobile toggling buttons and aria here is because of the screen reader-->
+        <button class=" mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img class=" icon-hamburger" src="./assets/images/icon-open.png" alt="" aria-hidden="true">
+          <img class="icon-close" src="./assets/images/icon-close.png" alt="" aria-hidden="true">
+        <!--This is to hide the menu visible-->
+          <span class="visually-hidden">menu</menu></span>
+        </button>
+        <nav class="primary-navigation">
+          <ul  class="nav-list">
+            <!--The aria make it possible for the screen reader assesebility-->
+            <li><a class="active" href="index.html"aria-label="Go to the Top of the page">Home</a></li>
+            <li><a href="blog.html" aria-label="Go to the Blog page to get tips">Blog</a></li>
+            <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="button | display-sm-none display-md-inline-flex"> <a href="./signup.html"> Signup</a></button>
       </div>
-    </header>
+    </div>
+  </header>
+  <!--Here end the makeup for the Nav element-->
     <!-- Here is the main body of the blog page. It has a background image as a cover and the text cover-->
     <section class="padding-block-900">
       <div class="container">
@@ -69,7 +76,7 @@
       <div class="blog-row">
         <div class="blog-column">
           <div class="blog">
-            <img src="./assets/images/coco.jpg">
+            <img src="./assets/images/coco.jpg" alt="coconut picture">
           </div>
           <h3>Coconut Oil</h3>
           <p> It's full of fatty acids that your body needs and may help improve cognitive function, metabolism, and
@@ -80,10 +87,10 @@
         <div class="blog-row">
           <div class="blog-column">
             <div class="blog">
-              <img src="./assets/images/alo.jpg">
+              <img src="./assets/images/alover-gel.jpg">
             </div>
             <h3>Alovera Gel</h3>
-            <p> Alovera Gel contains vitamins, antioxidants, and other properties that <br>can help with mild and severe
+            <p> Alovera Gel contains vitamins, antioxidants, and other properties that can help with mild and severe
               health issues. You can relieve several issues
               just by applying or drinking aloe vera juice.
               .</p>
@@ -93,7 +100,7 @@
         <div class="blog-row">
           <div class="blog-column">
             <div class="blog">
-              <img src="./assets/images/lossweigt.jpg">
+              <img src="./assets/images/loss-wght.jpg">
             </div>
             <h3>Tips for weight loss at home</h3>
             <p> Some of tips are Do intermitent Fasting, eat 80% of fruit and vegetable, be Active ..</p>
@@ -103,7 +110,7 @@
           <div class="blog-row">
             <div class="blog-column">
               <div class="blog">
-                <img src="./assets/images/lemongreen.png">
+                <img src="./assets/images/lemon-green.png">
               </div>
               <h3>Resons to take lemon Juice</h3>
               <p> Lemons are a good source of Vitamin C, which promotes immunity, battles infection, heals wounds, stop
@@ -126,7 +133,7 @@
             <div class="blog-row">
               <div class="blog-column">
                 <div class="blog">
-                  <img src="./assets/images/stone2.jpg">
+                  <img src="./assets/images/stone-feets.jpg">
                 </div>
                 <h3>Walking on the stone</h3>
                 <p> Walking barefoot on stones has so many health benefit, such as less tension , reduce body pain ,
@@ -169,11 +176,12 @@
 
 
     <!-- Here is the markup for the footer-->
+    
     <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
       <div class="container">
         <div class="even-columns">
-          <div>
-            <a href="index.html"><img src="./assets/images/logoever1.png" alt="everyoung logo"></a></li>
+          <div id="img-footer">
+            <a href="index.html"><img src="./assets/images/logo-ever.png"   alt="everyoung logo"></a></li>
             <ul class="social-list padding-block-700 ">
               <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                   aria-label="Visit our facebook page (opens in a new tab)" class="fa fa-facebook"></a>
@@ -190,11 +198,14 @@
             </ul>
           </div>
           <div>
+            
             <nav class="footer-nav">
-              <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="signup.html">Contact Us</a></li>
+              <ul>
+                <li><a href="index.html"aria-label="Go to the top page">Home</a></li>
+                <li><a href="blog.html"aria-label="Go to the Blog page">blog</a></li>
+                <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+
+                <!-- These below are useful links that help me alot- I also encourage you to go through them-->
                 <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener"
                     aria-label="Visit stackoverflow page (opens in a new tab)"> Stack overflow</a>
                 </li>

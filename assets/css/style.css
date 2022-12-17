@@ -460,23 +460,7 @@ margin-left: 20%;
 
 
 
-/* footer syling  
-.primary-footer-nav {
-  grid-area: nav;
-}
-  .primary-footer-logo-social {
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: var(--size-700);
-  }
-
-
-@media (max-width: 50em) {
-  .primary-footer-wrapper > * {
-    margin-inline: auto;
-  }
-}
-
+/* footer syling */ 
 /* footer navigation */
 
 .footer-nav {
@@ -690,6 +674,8 @@ span{
 .form-section {
   clear: left;
   background-image: url("../images/form-bg.jpg");
+ /* background-size: 100%;
+  background-repeat: no-repeat;*/
   background-size: cover;
   background-position: center;
   height: 900px;
