@@ -404,6 +404,10 @@ margin-top:-3%;
   margin-left: 2em;
   background-color: #f1f1f1;
 }
+
+
+
+*
 .blog-row h2,  h3{
 text-align: center;
 
@@ -413,6 +417,7 @@ text-align: center;
 margin-left: 20%;
 
 }
+
 
 /*  Blog Responsivenes at 50em  */
 @media screen and (max-width: 50em) {
@@ -427,9 +432,17 @@ margin-left: 20%;
 /*  Blog Responsivenes at 320  */
 @media screen and (max-width: 320px) {
   .blog-column , .blog-column-testimony, .blog{
-      width: 30%;
+      width: 200%;
+      float: none;
   
   }
+  
+  .blog-text{
+    width: 200%;
+    text-align: left;
+    margin-left: 8%;
+  }
+  
 
   .blog img{
     width:100vw;
@@ -680,10 +693,13 @@ span{
   background-position: center;
   height: 900px;
 }
+.form-section h2{
+  text-align: center;
+}
 .signup-form {
   margin:150px 10% 0 0; 
   color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
+  background-color: var(--color-warning);
   max-width: 400px;
   position: absolute;
   left: 10%;
@@ -720,9 +736,36 @@ span{
   background-color: #fafafa;
   color: #f16c6b;
 }
+#msg{
+  width: 50vw;
+  height: 20vh;
+}
   
-  
+  /*  Contact page Responsivenes at 320  */
+@media screen and (max-width: 320px) {
+  .signup-form {
+
+    margin:260px 10% 0 0;  
+    max-width: 80%;
+    
+   
+  }
+
+.social-list {
+    margin-left: 7%;
+} 
+}
+
  
+  /*  Contact page Responsivenes at 50em  */
+  @media screen and (max-width: 50em) {
+    #msg {
+      width:100%;
+    
+      
+    }
+  }
+
 
 /* syling thank you Message this is simple a message got after sucessfully fill the form*/
 .thank-u  {
