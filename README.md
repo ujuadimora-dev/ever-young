@@ -102,7 +102,7 @@ The blog consists of ;
 
 ## Design
 
-###  Make sheet Wireframes
+###  Make sheet Wireframes: In future,it will be no longer with make sheet-
 <br>
 Home Page
 <br><br>
@@ -193,11 +193,11 @@ Issue : After keyboard controls were implemented, while testing the site with wi
 
 ### Lighthouse Testing
 
-![Home](docs/testing/index_lighthouse.JPG)
+![Home](assets/docs/test-images/homepage-lighthoutest.PNG)
 
-![Blog](docs/testing/gallery_lighthouse.JPG)
+![Blog](assets/docs/test-images/blog-lighthoustest.PNG)
 
-![contact us](docs/testing/adventures_lighthouse.JPG)
+![contact us](assets/docs/test-images/contact-lighthousetest.PNG)
 
 ### Functional Testing
 
@@ -282,7 +282,7 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to [Ever young - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Ever young - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name: Doe
@@ -347,20 +347,18 @@ Behavior was as expected and the window presented me with the following option t
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/testing/contact_validator.JPG)
+![Home HTML Validator Results](assets/docs/test-images/index-validitytest.PNG)
 
-![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
+![Blog HTML Validator Results](assets/docs/test-images/blog-html.textvalidity.PNG)
 
-![Home HTML Validator Results](docs/testing/home_validator.JPG)
+![Contact us Validator Results](assets/docs/test-images/contact-pagevalidity.PNG)
 
-![Gallery HTML Validator Results](docs/testing/gallery_validator.JPG)
-
-![404 HTML Validator Results](docs/testing/404_validator.JPG)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+  - One  error was found when passing through the official [(W3C validator]((https://validator.w3.org)
 
-![CSS Validator Results](docs/testing/css_validator.JPG)
+![CSS Validator Results](assets/docs/test-images/css-valid.PNG)
+ * This is yet to be resolved, but will be address in future due time factor
 
 ### Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.

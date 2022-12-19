@@ -25,8 +25,8 @@
       <div class="nav-wrapper">
         <a href="index.html"><img src="./assets/images/logo-ever.png" alt="Ever Joung logo"></a>
         <!--Here is the markup for the mobile toggling buttons and aria here is because of the screen reader-->
-        <button class=" mobile-nav-toggle" aria-controls="primary-navigation">
-          <img class=" icon-open" src="./assets/images/icon-open.png" alt="open icon image" >
+        <button class=" mobile-nav-toggle">
+          <img class=" icon-open" src="./assets/images/icon-open.png" alt="open icon image">
           <img class="icon-close" src="./assets/images/icon-close.png" alt="close icon image">
           <!--This is to hide the menu visible-->
           <span class="visually-hidden">menu</span>
@@ -39,7 +39,7 @@
             <li><a class="active" href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
           </ul>
         </nav>
-        <button class="button | display-sm-none display-md-inline-flex"> <a href="./signup.html"> Signup</a></button>
+        <a href="./signup.html" class="button | display-sm-none display-md-inline-flex"> Signup</a>
       </div>
     </div>
   </header>
@@ -63,8 +63,8 @@
       <label for="yearly">Yearly Newsletter</label>
       <input type="radio" id="yearly" name="subcription_preference" value="yearly" required>
       <br>
-      <textarea id="msg" rows="5" cols="40" name="comment" form="usrform">
-               comment here...</textarea>
+      <!--<textarea id="msg" rows="5" cols="40" name="comment" form="usrform">
+               comment here...</textarea>-->
 
       <input class="button" type="submit" value="submit!">
     </form>
@@ -94,7 +94,6 @@
           </ul>
         </div>
         <div>
-
           <nav class="footer-nav">
             <ul>
               <li><a href="index.html" aria-label="Go to the top page">Home</a></li>
@@ -126,10 +125,10 @@
           <p class="padding-block-700" id="copy-right">copy right and &copy; 2022 coding @adimorauju@gmail.com</p>
         </div>
       </div>
-    </footer>
-
-        <!--fontawsone kit-->
-        <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
-        <script src="./assets/main.js"></script>
+    </div>
+  </footer>
+  <!--fontawsone kit-->
+  <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
+  <script src="./assets/main.js"></script>
 </body>
 </html>
