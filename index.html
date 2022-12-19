@@ -2,180 +2,199 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ever young is a website  for Ever young minded people in Germany Eurpe">
-    <meta name="keywords"
-        content="looking young, anti-aging, natural products, organic products, exercise, meditation,  massaging Germany, Europ">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Ever young</title>
-    <!-- google font   used-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400;1,900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ever young is a website  for Ever young minded people in Germany Eurpe">
+  <meta name="keywords"
+    content="looking young, anti-aging, natural products, organic products, exercise, meditation,  massaging Germany, Europ">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Ever young</title>
+  <!-- google font   used-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400;1,900&display=swap"
+    rel="stylesheet">
 </head>
 <!--here is the markup for Nav elemnents and logo and the logo is link to Home page-->
 
 <body>
-    <!--Here is the makeup for the Nav element-->
-    <header class="primary-header">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="index.html"><img src="./assets/images/logo-ever.png" alt="Ever Joung logo"></a>
-          <!--Here is the markup for the mobile toggling buttons and aria here is because of the screen reader-->
-          <button class=" mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <img class=" icon-hamburger" src="./assets/images/icon-open.png" alt="" aria-hidden="true">
-            <img class="icon-close" src="./assets/images/icon-close.png" alt="" aria-hidden="true">
+  <!--Here is the makeup for the Nav element-->
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html"><img src="./assets/images/logo-ever.png" alt="Ever Joung logo"></a>
+        <!--Here is the markup for the mobile toggling buttons and aria here is because of the screen reader-->
+        <button class=" mobile-nav-toggle">
+          <img class=" icon-open" src="./assets/images/icon-open.png" alt="open button">
+          <img class="icon-close" src="./assets/images/icon-close.png" alt="close button">
           <!--This is to hide the menu visible-->
-            <span class="visually-hidden">menu</menu></span>
+          <span class="visually-hidden">menu</span>
+        </button>
+        <nav class="primary-navigation">
+          <ul class="nav-list">
+            <!--The aria make it possible for the screen reader assesebility-->
+            <li><a class="active" href="index.html" aria-label="Go to the Top of the page">Home</a></li>
+            <li><a href="blog.html" aria-label="Go to the Blog page to get tips">Blog</a></li>
+            <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+          </ul>
+        </nav>
+        <a href="./signup.html">
+          <button class="button | display-sm-none display-md-inline-flex"> Signup
           </button>
-          <nav class="primary-navigation">
-            <ul  class="nav-list">
-              <!--The aria make it possible for the screen reader assesebility-->
-              <li><a class="active" href="index.html"aria-label="Go to the Top of the page">Home</a></li>
-              <li><a href="blog.html" aria-label="Go to the Blog page to get tips">Blog</a></li>
-              <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
-            </ul>
-          </nav>
-          <button class="button | display-sm-none display-md-inline-flex"> <a href="./signup.html"> Signup</a></button>
-        </div>
+        </a>
       </div>
-    </header>
-    <!--Here end the makeup for the Nav element-->
-    <!--Here begin the markeup for the landing page-->
-    <main>
-      <section class="padding-block-900">
-        <div class="container">
-          <div class="even-columns">
-            <div class="flow">
-              <h1 class="fs-secondary-heading fw-bold">Everything you need to
-                know how to be in good health and remain Young.</h1>
-              <p clas="fs-300">Ever young</span> site is for visitors who want to remain ever young,<br>
-                (anti-aging) or want to prevent premature ageing , heal themselves with
-                organic means and natural products.</p>
-              <button class="button"><a href="./signup.html">More info</a></button>
-            </div>
-            <div>
-              <img src="./assets/images/main-bg.png" alt="" class="padding-block-900" id="main-img" >
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Here end the markup for the landing page element-->
-      <!--Here beginn the about page markeup element-->
-      <section class="padding-block-700">
-        <div class="container">
-          <h2 class="fs-secondary-heading fw-bold  text-center  margin-bottom-900" id="h2-about" >
-            About EverYoung</h2>
-          <div class="even-columns">
-            <div class="flow text-center-sm-only margi">
-              <img src="./assets/images/meet-bg.jpg">
-              <h2 class="fw-bold">We give transparent Advice
-                on health Issues</h2>
-              <p><span> Ever young</span> customers get a first hand advice or recomendation
-                of products through our team. We don't just tell you what you should take
-                or do but show you how to do it. At Ever young we have both young and ages as customers.</p>
-              <button class="button"><a href="./signup.html">Read more</a></button>
-            </div>
-            <div class="flow text-center-sm-only margi">
-              <img src="./assets/images/go-organics.png">
-              <h2 class="fw-bold">Go organic and Nature</h2>
-              <p><span>Ever Young</span> had help so many people in reducing their risk of
-                of cancer, heart attack, or promote their youthfullness by follwing
-                simple instructions on how to mix or
-                blend one or more products</p>
-              <button class="button"><a href="./signup.html">Read more</a></button>
-            </div>
-            <div class="flow text-center-sm-only margi">
-              <img src="./assets/images/supplement-sppon.png">
-              <h2 class="fw-bold">Suppliment Your Food</h2>
-              <p><span>It is best Practice </span>to supplement your meal or food you eat
-                due to the fact that we cannot get all the nuritents required in a given meal.
-                There are supplement products we recommend.....</p>
-              <button class="button"><a href="./signup.html"> Read more</a></button>
-            </div>
-          </div>
-        </div>
-      </section>
-  
-  
-  
-      <section class="cta  padding-block-900 bg-accent-400 text-neutral-100">
-        <div class="container">
-          <div class="even-columns vertical-align-center">
-            <div>
-              <p class="fs-secondary-heading fw-bold text-center ">Invest in your health.</p>
-            </div>
-            <div class="justify-self-end-md" style="margin-right: 20%;">
-              <button class="button" id="button-white" data-type="inverted" ><a href= "tel:+4915214039314" style="color: brown;">call Us at
-                +491-5214-039-314</a>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  
-    <!-- Here is the markup for the footer-->
-    <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
+    </div>
+  </header>
+  <!--Here end the makeup for the Nav element-->
+  <!--Here begin the markeup for the landing page-->
+  <main>
+    <section class="padding-block-900">
       <div class="container">
         <div class="even-columns">
-          <div id="img-footer">
-            <a href="index.html"><img src="./assets/images/logo-ever.png"   alt="everyoung logo"></a></li>
-            <ul class="social-list padding-block-700 ">
-              <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our facebook page (opens in a new tab)" class="fa fa-facebook"></a>
-              </li>
-              <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our Twitter page (opens in a new tab)" class="fa fa-twitter"></a>
-              </li>
-              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our linkedin page (opens in a new tab)" class="fa fa-linkedin"></a>
-              </li>
-              <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our youtube page (opens in a new tab)" class="fa fa-youtube"></a>
-              </li>
-            </ul>
+          <div class="flow">
+            <h1 class="fs-secondary-heading fw-bold">Everything you need to
+              know how to be in good health and remain Young.</h1>
+            <p class="fs-300"><span>Ever young</span> site is for visitors who want to remain ever young,
+              (anti-aging) or want to prevent premature ageing , heal themselves with
+              organic means and natural products.</p>
+            <a href="./signup.html">
+              <button class="button">More info
+              </button>
+            </a>
           </div>
           <div>
-            
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="index.html"aria-label="Go to the top page">Home</a></li>
-                <li><a href="blog.html"aria-label="Go to the Blog page">blog</a></li>
-                <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
-
-                <!-- These below are useful links that help me alot- I also encourage you to go through them-->
-                <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener"
-                    aria-label="Visit stackoverflow page (opens in a new tab)"> Stack overflow</a>
-                </li>
-                <li><a href="https://www.freepik.com/" target="_blank" rel="noopener"
-                    aria-label="Visit freepik page (opens in a new tab)">freepik</a></li>
-                <li><a href="https://wave.webaim.org" target="_blank" rel="noopener"
-                    aria-label="Visit Acessibilty page (opens in a new tab)"> Checkers</a></li>
-                <li><a href="https://undraw.co/illustrations" target="_blank" rel="noopener"
-                    aria-label="undraw page (opens in a new tab)"> undraw</a></li>
-                <li><a href="https://coolors.co" target="_blank" rel="noopener"
-                    aria-label="Visit  color palette page (opens in a new tab)"> palette
-                    generator</a></li>
-                <li><a href="https://usersnap.com/blog/background-webdesign/ " target="_blank" rel="noopener"
-                    aria-label="Visit usersnap page (opens in a new tab)">Usersnap</a>
-                </li>
-                <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener"
-                    aria-label="Visit  w3school  (opens in a new tab)">w3school</a></li>
-              </ul>
-            </nav>
+            <img src="./assets/images/main-bg.png" alt="an Image with fruits and people" class="padding-block-900"
+              id="main-img">
           </div>
+        </div>
+      </div>
+    </section>
+    <!--Here end the markup for the landing page element-->
+    <!--Here beginn the about page markeup element-->
+    <section class="padding-block-700">
+      <div class="container">
+        <h2 class="fs-secondary-heading fw-bold  text-center  margin-bottom-900" id="h2-about">
+          About EverYoung</h2>
+        <div class="even-columns">
+          <div class="flow text-center-sm-only margi">
+            <img src="./assets/images/meet-bg.jpg" alt="image of the two peeple discussing">
+            <h2 class="fw-bold">We give transparent Advice
+              on health Issues</h2>
+            <p><span> Ever young</span> customers get a first hand advice or recomendation
+              of products through our team. We don't just tell you what you should take
+              or do but show you how to do it. At Ever young we have both young and ages as customers.</p>
+            <a href="./signup.html">
+              <button class="button">Read more</button>
+            </a>
+          </div>
+          <div class="flow text-center-sm-only margi">
+            <img src="./assets/images/go-organics.png" alt=" an Image of a Yoga and  fruit basket">
+            <h2 class="fw-bold">Go organic and Nature</h2>
+            <p><span>Ever Young</span> had help so many people in reducing their risk of
+              of cancer, heart attack, or promote their youthfullness by follwing
+              simple instructions on how to mix or
+              blend one or more products</p>
+            <a href="./signup.html">
+              <button class="button">Read more
+              </button>
+            </a>
+          </div>
+          <div class="flow text-center-sm-only margi">
+            <img src="./assets/images/supplement-sppon.png" alt=" An image of omega">
+            <h2 class="fw-bold">Suppliment Your Food</h2>
+            <p><span>It is best Practice </span>to supplement your meal or food you eat
+              due to the fact that we cannot get all the nuritents required in a given meal.
+              There are supplement products we recommend.....</p>
+            <a href="./signup.html">
+              <button class="button">Read more</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="cta  padding-block-900 bg-accent-400 text-neutral-100">
+      <div class="container">
+        <div class="even-columns vertical-align-center">
           <div>
+            <p class="fs-secondary-heading fw-bold text-center ">Invest in your health.</p>
+          </div>
+          <div class="justify-self-end-md" style="margin-right: 20%;">
+            <a href="tel:+4915214039314" style="color: brown;">
+              <button class="button" id="button-white" data-type="inverted">
+                call Us at+491-5214-039-314</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-            <p class="padding-block-700" id="copy-right">copy right and &copy; 2022 coding @adimorauju@gmail.com</p>
+  <!-- Here is the markup for the footer-->
 
-            <!---fontawsone kit--->
-            <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
-            <script src="./assets/main.js"></script>
+  <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="even-columns">
+        <div id="img-footer">
+          <a href="index.html"><img src="./assets/images/logo-ever.png" alt="everyoung logo"></a>
+          <ul class="social-list padding-block-700 ">
+            <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our facebook page (opens in a new tab)" class="fa fa-facebook"></a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)" class="fa fa-twitter"></a>
+            </li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                aria-label="Visit our linkedin page (opens in a new tab)" class="fa fa-linkedin"></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our youtube page (opens in a new tab)" class="fa fa-youtube"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  </body>
+    <div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html" aria-label="Go to the top page">Home</a></li>
+          <li><a href="blog.html" aria-label="Go to the Blog page">blog</a></li>
+          <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+
+          <!-- These below are useful links that help me alot- I also encourage you to go through them-->
+          <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener"
+              aria-label="Visit stackoverflow page (opens in a new tab)"> Stack overflow</a>
+          </li>
+          <li><a href="https://www.freepik.com/" target="_blank" rel="noopener"
+              aria-label="Visit freepik page (opens in a new tab)">freepik</a></li>
+          <li><a href="https://wave.webaim.org" target="_blank" rel="noopener"
+              aria-label="Visit Acessibilty page (opens in a new tab)"> Checkers</a></li>
+          <li><a href="https://undraw.co/illustrations" target="_blank" rel="noopener"
+              aria-label="undraw page (opens in a new tab)"> undraw</a></li>
+          <li><a href="https://coolors.co" target="_blank" rel="noopener"
+              aria-label="Visit  color palette page (opens in a new tab)"> palette
+              generator</a></li>
+          <li><a href="https://usersnap.com/blog/background-webdesign/ " target="_blank" rel="noopener"
+              aria-label="Visit usersnap page (opens in a new tab)">Usersnap</a>
+          </li>
+          <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener"
+              aria-label="Visit  w3school  (opens in a new tab)">w3school</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+    </div>
+  </footer>
+
+  <p class="padding-block-700" id="copy-right">copy right and &copy; 2022 coding @adimorauju@gmail.com</p>
+
+  <!--fontawsone kit-->
+  <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
+  <script src="./assets/main.js"></script>
+</body>
 
 </html>

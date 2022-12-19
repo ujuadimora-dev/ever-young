@@ -430,7 +430,7 @@ margin-left: 20%;
 }
 
 /*  Blog Responsivenes at 320  */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px ) {
   .blog-column , .blog-column-testimony, .blog{
       width: 200%;
       float: none;
@@ -737,34 +737,50 @@ span{
   color: #f16c6b;
 }
 #msg{
-  width: 50vw;
+  width: 100%;
   height: 20vh;
 }
   
-  /*  Contact page Responsivenes at 320  */
+  /*  Contact page Responsivenes at 320px  */
 @media screen and (max-width: 320px) {
   .signup-form {
-
-    margin:260px 10% 0 0;  
+   margin:260px 10% 0 0;  
     max-width: 80%;
-    
-   
+  
   }
+  
 
 .social-list {
     margin-left: 7%;
 } 
+
+#msg{
+  width: 50vw;
+  height: 20vh;
+}
 }
 
  
   /*  Contact page Responsivenes at 50em  */
   @media screen and (max-width: 50em) {
     #msg {
-      width:100%;
-    
-      
+      width:100%; 
+    }
+    .button{
+      margin-right: 6%;
     }
   }
+
+  /*  Contact page Responsivenes at 1024px */
+  @media screen and (max-width: 1024px) {
+    #msg {
+      width: 100%;
+    }
+    
+  }
+
+
+  
 
 
 /* syling thank you Message this is simple a message got after sucessfully fill the form*/
