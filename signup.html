@@ -2,23 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ever young is a website  for Ever young minded people in Germany Eurpe">
-    <meta name="keywords"
-        content="looking young, anti-aging, natural products, organic products, exercise, meditation,  massaging Germany, Europ">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Ever young</title>
-    <!-- google font   used-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400;1,900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ever young is a website  for Ever young minded people in Germany Eurpe">
+  <meta name="keywords"
+    content="looking young, anti-aging, natural products, organic products, exercise, meditation,  massaging Germany, Europ">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Ever young</title>
+  <!-- google font   used-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400;1,900&display=swap"
+    rel="stylesheet">
 </head>
-
-<body>
-   <!--here is the markup for Nav elemnents and logo and the logo is link to Home page-->
+<!--here is the markup for Nav elemnents and logo and the logo is link to Home page-->
 
 <body>
   <!--Here is the makeup for the Nav element-->
@@ -27,18 +25,18 @@
       <div class="nav-wrapper">
         <a href="index.html"><img src="./assets/images/logo-ever.png" alt="Ever Joung logo"></a>
         <!--Here is the markup for the mobile toggling buttons and aria here is because of the screen reader-->
-        <button class=" mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-          <img class=" icon-hamburger" src="./assets/images/icon-open.png" alt="" aria-hidden="true">
-          <img class="icon-close" src="./assets/images/icon-close.png" alt="" aria-hidden="true">
-        <!--This is to hide the menu visible-->
-          <span class="visually-hidden">menu</menu></span>
+        <button class=" mobile-nav-toggle" aria-controls="primary-navigation">
+          <img class=" icon-open" src="./assets/images/icon-open.png" alt="open icon image" >
+          <img class="icon-close" src="./assets/images/icon-close.png" alt="close icon image">
+          <!--This is to hide the menu visible-->
+          <span class="visually-hidden">menu</span>
         </button>
         <nav class="primary-navigation">
-          <ul  class="nav-list">
+          <ul class="nav-list">
             <!--The aria make it possible for the screen reader assesebility-->
-            <li><a href="index.html"aria-label="Go to the Top of the page">Home</a></li>
+            <li><a href="index.html" aria-label="Go to the Top of the page">Home</a></li>
             <li><a href="blog.html" aria-label="Go to the Blog page to get tips">Blog</a></li>
-            <li><a  class="active"href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+            <li><a class="active" href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
           </ul>
         </nav>
         <button class="button | display-sm-none display-md-inline-flex"> <a href="./signup.html"> Signup</a></button>
@@ -46,92 +44,92 @@
     </div>
   </header>
   <!--Here end the makeup for the Nav element-->
-    <section class="form-section">
-      <form action="thank-you.html" class="signup-form">
-        <h2>Let's be in contact!</h2>
-        <label for="fname">First Name</label>
-        <input id="fname" name="first_name" type="text" class="text-input" required>
-  
-        <label for="lname">Last Name</label>
-        <input id="lname" name="last_name" type="text" class="text-input" required>
-  
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email_address" class="text-input" required>
-  
-        <label for="weekly">Weekly Newsletter</label>
-        <input type="radio" id="weekly" name="subcription_preference" value="weekly" required>
-        <label for="monthly">Monthly Newsletter</label>
-        <input type="radio" id="monthly" name="subcription_preference" value="monthly" required>
-        <label for="yearly">Yearly Newsletter</label>
-        <input type="radio" id="yearly" name="subcription_preference" value="yearly" required>
-        <br>
-        <textarea id="msg" rows="5" cols="40" name="comment" form="usrform">
+  <section class="form-section">
+    <form action="thank-you.html" class="signup-form">
+      <h2>Let's be in contact!</h2>
+      <label for="fname">First Name</label>
+      <input id="fname" name="first_name" type="text" class="text-input" required>
+
+      <label for="lname">Last Name</label>
+      <input id="lname" name="last_name" type="text" class="text-input" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email_address" class="text-input" required>
+
+      <label for="weekly">Weekly Newsletter</label>
+      <input type="radio" id="weekly" name="subcription_preference" value="weekly" required>
+      <label for="monthly">Monthly Newsletter</label>
+      <input type="radio" id="monthly" name="subcription_preference" value="monthly" required>
+      <label for="yearly">Yearly Newsletter</label>
+      <input type="radio" id="yearly" name="subcription_preference" value="yearly" required>
+      <br>
+      <textarea id="msg" rows="5" cols="40" name="comment" form="usrform">
                comment here...</textarea>
-  
-        <input class="button" type="submit" value="submit!">
-      </form>
-    </section>
-  
-  
-    <!-- Here is the markup for the footer-->
-    <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
-      <div class="container">
-        <div class="even-columns">
-          <div id="img-footer">
-            <a href="index.html"><img src="./assets/images/logo-ever.png"   alt="everyoung logo"></a></li>
-            <ul class="social-list padding-block-700 ">
-              <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our facebook page (opens in a new tab)" class="fa fa-facebook"></a>
+
+      <input class="button" type="submit" value="submit!">
+    </form>
+  </section>
+
+
+  <!-- Here is the markup for the footer-->
+
+  <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="even-columns">
+        <div id="img-footer">
+          <a href="index.html"><img src="./assets/images/logo-ever.png" alt="everyoung logo"></a>
+          <ul class="social-list padding-block-700 ">
+            <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our facebook page (opens in a new tab)" class="fa fa-facebook"></a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)" class="fa fa-twitter"></a>
+            </li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                aria-label="Visit our linkedin page (opens in a new tab)" class="fa fa-linkedin"></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our youtube page (opens in a new tab)" class="fa fa-youtube"></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="index.html" aria-label="Go to the top page">Home</a></li>
+              <li><a href="blog.html" aria-label="Go to the Blog page">blog</a></li>
+              <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+
+              <!-- These below are useful links that help me alot- I also encourage you to go through them-->
+              <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener"
+                  aria-label="Visit stackoverflow page (opens in a new tab)"> Stack overflow</a>
               </li>
-              <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our Twitter page (opens in a new tab)" class="fa fa-twitter"></a>
+              <li><a href="https://www.freepik.com/" target="_blank" rel="noopener"
+                  aria-label="Visit freepik page (opens in a new tab)">freepik</a></li>
+              <li><a href="https://wave.webaim.org" target="_blank" rel="noopener"
+                  aria-label="Visit Acessibilty page (opens in a new tab)"> Checkers</a></li>
+              <li><a href="https://undraw.co/illustrations" target="_blank" rel="noopener"
+                  aria-label="undraw page (opens in a new tab)"> undraw</a></li>
+              <li><a href="https://coolors.co" target="_blank" rel="noopener"
+                  aria-label="Visit  color palette page (opens in a new tab)"> palette
+                  generator</a></li>
+              <li><a href="https://usersnap.com/blog/background-webdesign/ " target="_blank" rel="noopener"
+                  aria-label="Visit usersnap page (opens in a new tab)">Usersnap</a>
               </li>
-              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our linkedin page (opens in a new tab)" class="fa fa-linkedin"></a>
-              </li>
-              <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our youtube page (opens in a new tab)" class="fa fa-youtube"></a>
-              </li>
+              <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener"
+                  aria-label="Visit  w3school  (opens in a new tab)">w3school</a></li>
             </ul>
-          </div>
-          <div>
-            
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="index.html"aria-label="Go to the top page">Home</a></li>
-                <li><a href="blog.html"aria-label="Go to the Blog page">blog</a></li>
-                <li><a href="signup.html" aria-label="Go to the contact page and signup">Contact Us</a></li>
+          </nav>
+        </div>
+        <div>
+          <p class="padding-block-700" id="copy-right">copy right and &copy; 2022 coding @adimorauju@gmail.com</p>
+        </div>
+      </div>
+    </footer>
 
-                <!-- These below are useful links that help me alot- I also encourage you to go through them-->
-                <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener"
-                    aria-label="Visit stackoverflow page (opens in a new tab)"> Stack overflow</a>
-                </li>
-                <li><a href="https://www.freepik.com/" target="_blank" rel="noopener"
-                    aria-label="Visit freepik page (opens in a new tab)">freepik</a></li>
-                <li><a href="https://wave.webaim.org" target="_blank" rel="noopener"
-                    aria-label="Visit Acessibilty page (opens in a new tab)"> Checkers</a></li>
-                <li><a href="https://undraw.co/illustrations" target="_blank" rel="noopener"
-                    aria-label="undraw page (opens in a new tab)"> undraw</a></li>
-                <li><a href="https://coolors.co" target="_blank" rel="noopener"
-                    aria-label="Visit  color palette page (opens in a new tab)"> palette
-                    generator</a></li>
-                <li><a href="https://usersnap.com/blog/background-webdesign/ " target="_blank" rel="noopener"
-                    aria-label="Visit usersnap page (opens in a new tab)">Usersnap</a>
-                </li>
-                <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener"
-                    aria-label="Visit  w3school  (opens in a new tab)">w3school</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div>
-
-            <p class="padding-block-700" id="copy-right">copy right and &copy; 2022 coding @adimorauju@gmail.com</p>
-
-            <!---fontawsone kit--->
-            <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
-            <script src="./assets/main.js"></script>
-
-
-  </body>
-
+        <!--fontawsone kit-->
+        <script src="https://kit.fontawesome.com/72e64da51c.js" crossorigin="anonymous"></script>
+        <script src="./assets/main.js"></script>
+</body>
 </html>
