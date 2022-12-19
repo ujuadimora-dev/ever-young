@@ -78,68 +78,49 @@ The blog consists of ;
 5. section showing social media which are in all three pages for consistency
 6. There are read more that will take the user to sign up page if the use to know more about the particular product or the like
 
-![Gallery](assets/docs/readme-images/blog-page.png)
-### Adventures
-* Adventure Summary
-    * Sections containing 2 photos of the trip, a paragraph about the trip and a link to the gallery page to see more photos. 
-    * The sections will give the user an overview of the adventures that Taco has been on and the links will take the user to the gallery page where the user can view all the pictures that have been uplaoded for that trip.
+![Blog](assets/docs/readme-images/blog-page.png)
 
-![Adventure Summary](docs/readme_images/adventures_summary.JPG)
-* More details dropdown
-    * Hidden sections at the end of each Adventure Summary that will show a more detailed description of the trip which may include more details about longer trips and information about places visited along the way. 
-    * These section will be hidden by default so that user can only see the summaries on the page when loaded but the user will have ability with this feature to click and view more details at the end of the summary. This will allow user to easily scroll through the page and only view details of trips that they want to read more about. 
 
-![Details Dropdown](docs/readme_images/details_dropdown.JPG)
-### Existing Features
 
-* Responsive design
-* Hidden interactive sections on adventure page
-* Responsive gallery with filtering
-* Contact form and success page
-* 3 Adventure trips and information
+## Existent Features
+*	Responsive design
+*	There are some animations on the About Ever young
+*	Contact form and thank you message page
+*	There is a toggle button for the mobile. Java script was used because it cannot be done with only CSS.
+*	There is also a button to call  and there is a an established connection
+
+
 
 ### Features Left to Implement
 
-* As a future enhancement, the contact form will be updated with javascript to send an email to Taco with the contact information.
-
-* Google map interaction to be added to the Adventures page instead of screen shots of the map.
+* 	As a future enhancement, the contact form will be updated with javascript to send an email to “Ever Young” with the contact 
+    information.
+*	There would be multiple pages for user to navigate to if they click more
+*	There would be dedicated Twitter, you tube (demonstrate videos for products or Tips) and Facebook handle dedicated to Ever Young
+*	There should Google map showing the location of Ever Young
+*	It should be an Affiliate Marketing site for some sites in Future
 
 ## Design
 
-### Wireframes
+###  Make sheet Wireframes
 <br>
-Home page
+Home Page
 <br><br>
 
-![Home Page large screen](docs/readme_images/home_wireframe.JPG)
+![Home Page large screen](assets/docs/readme-images/home-wiref.jpg)
 
-![Home Page small screen](docs/readme_images/home_mobile_wireframe.JPG)
 <br><br>
-Contact form successful submission page.
+Contact us Page
 <br><br>
-![Contact form submission success](docs/readme_images/contact_wireframe.JPG)
+![Contact page form](assets/docs/readme-images/countact-wiref.jpg)
 
-![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
+![Contact form submission success](assets/docs/readme-images/thanks-wiref.jpg)
 
 
-Adventures page
+Blog page
 <br><br>
-![Adventures page large screen](docs/readme_images/adventures_wireframe.JPG)
+![Blog](assets/docs/readme-images/blog-wiref.jpg)
 
-![Adventures page small screen](docs/readme_images/adventures_mobile_wireframe.JPG)
-
-Gallery page
-<br><br>
-![Gallery page large screen](docs/readme_images/gallery_wireframe.JPG)
-
-![Gallery page small screen](docs/readme_images/gallery_mobile.JPG)
-
-404 page
-<br><br>
-![Gallery page large screen](docs/readme_images/404_wireframe.JPG)
-
-![Gallery page small screen](docs/readme_images/404_mobile_wireframe.JPG)
-<br><br><br><br>
 
 
 ## Technologies
@@ -158,10 +139,6 @@ Gallery page
     * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
 * Tinyjpg
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
-* Favicon.io
-    * favicon files were created at https://favicon.io/favicon-converter/ 
-* balsamiq
-    * wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
 
 
 ## Testing 
@@ -172,7 +149,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/)
+1. Open browser and navigate to [Ever Young](https://ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io//)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -222,9 +199,9 @@ Issue #2: After keyboard controls were implemented, while testing the site with 
 
 ![Home](docs/testing/index_lighthouse.JPG)
 
-![Gallery](docs/testing/gallery_lighthouse.JPG)
+![Blog](docs/testing/gallery_lighthouse.JPG)
 
-![Adventures](docs/testing/adventures_lighthouse.JPG)
+![contact us](docs/testing/adventures_lighthouse.JPG)
 
 ### Functional Testing
 
@@ -248,7 +225,7 @@ _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Everjoung - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
 2. Scroll down to the form and input the following data:
    - First Name: John
    - Last Name: Doe
@@ -269,7 +246,7 @@ _Scenario Two - Missing Required Field First Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Blog - Blog Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:
    - Last Name: Doe
