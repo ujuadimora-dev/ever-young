@@ -189,11 +189,7 @@ Testing was focused to ensure the following criteria were met:
 
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
-
-Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click)
-
-Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
+Issue : After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was. Note:  I was only able to perfoem thise text of th e time factor.
 
 ### Lighthouse Testing
 
@@ -212,41 +208,41 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | Navigation Link | Page to Load    |
 | --------------- | --------------- |
 | Home            | index.html      |
-| Aventures       | adventures.html |
-| Gallery         | gallery.html    |
+| Blog            | blog.html |
+| Contact Us      | signup.html    |
 
 Links on all pages navigated to the correct pages as exptected.
 
 **Form Testing**
 
-The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+The form on the contact Us page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
 _Scenario One - Correct Inputs_
 
 Steps to test:
 
 1. Navigate to [Everjoung - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
-2. Scroll down to the form and input the following data:
-   - First Name: John
-   - Last Name: Doe
-   - Email: doe.john@test.com
-   - Comment: This is a test.
+2. click the Contact us page  and fill in the  to the form and input the following data:
+   - First Name: Uju
+   - Last Name: Ada
+   - Email: Ada.uju@test.com
+   - Comment: This is super.( The commect is not a must requirement)
 3. Click Submit
-4. User should be redirected to contact.html confirmation page
+4. User should be redirected to Thank-you.html confirmation page as expected
 
 Expected:
 
-Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+Form submits with no warnings or errors and the user is redirected to a thank-you.html confirmation page.
 
 Actual:
 
-Website behaved as expected with no errors or warnings and redirected to contact.html.
+The website behaved as expected with no errors or warnings and redirected to thanky-you.html.
 
-_Scenario Two - Missing Required Field First Name_
+_Scenario Two - Missing Required Field First Name_ or last Name or Email address. it will prompt   "Missing Required Field "
 
 Steps to test:
 
-1. Navigate to [Blog - Blog Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Home - Ever Joung](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:
    - Last Name: Doe
@@ -266,7 +262,7 @@ _Scenario Three - Missing Required Field Last Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Home - Ever Young](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name:
@@ -286,7 +282,7 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Ever young - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name: Doe
@@ -297,21 +293,20 @@ Steps to test:
 Expected:
 
 The form does not submit and an Error is displayed to tell the user that the field is required.
+That  means if you did not fill in any field ( except comment) or incorected filled email address- It will prompt you
 
-Actual:
+See below;
 
-Website behaved as expected, error message was displayed and the form did not submit.
-
-_Scenario Six - Incorrect email format_
+_Scenario  - Incorrect email format_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Ever Young - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
 2. Scroll down to the form and input the following data:
-   - First Name:John
-   - Last Name: Doe
-   - Email: doe.johntest.com
-   - Comment: This is a test.
+   - First Name:uju
+   - Last Name: Ada
+   - Email: ada.ujujoung.com
+   - Comment: Perfect.
 3. Click Submit
 
 Expected:
@@ -320,7 +315,7 @@ The form does not submit and an Error is displayed to tell the user that a valid
 
 Actual:
 
-Website behaved as expected, error message was displayed and the form did not submit.
+Website behaved as expected.
 
 **Footer Social Media Icons / Links**
 
@@ -334,8 +329,8 @@ Testing was performed on the phone number in the contact information section of 
 
 _Steps to test Telephone Number_
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the phone number in the footer (01 123 456 789)
+1. Navigate to [Ever Young - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
+2. Click the phone number in the footer area (+49 152 140 393914)
 
 Expected:
 
@@ -345,20 +340,7 @@ Actual:
 
 Behavior was as expected and the window presented me with the following option to call:
 
-- Oukitel Mobile Phone
 
-_Steps to test Email Link_
-
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the email address in the footer (taco@gmail.com)
-
-Expected:
-
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
-
-Actual:
-
-Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
 ### Validator Testing 
 
@@ -406,7 +388,7 @@ The following git commands were used throughout development to push code to the 
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
 
-The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/ 
+The live link can be found here - https://ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/
 
 ### Clone the Repository Code Locally
 
@@ -420,20 +402,24 @@ Navigate to the GitHub Repository you want to clone to use locally:
 
 The project will now of been cloned on your local machine for use.
 
+
 ## Credits 
 
-* [Accordion without javascript](https://supfort.com/pure-css-accordion-without-javascript)
-    * Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
-* [Youtube Gallery Filter Tutorial](https://www.youtube.com/watch?v=U-CujW5OlW0)
-    * Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device. 
+
+* (https://www.w3schools.com/)
+    *  some of the code was used from this site to create the blog. Styles were changed to suit styling on my Website. I recommend this site for every beginners.
+
+   * https://stackoverflow.com]This site also help me in resovlving some issue in coding
+    
+* [Youtube column, grid, media queries Tutorial](https://youtu.be/sKFW3wek21Q),https://youtu.be/zyNhxN6sToM
+    * I learn  lot from this video especially the  responsive of the website and CSS- I used some code but style differently.
 
 
 ### Content 
 
-All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
+All contents and  media or image in this site was Fantasy( all are fantasied by me ) with the helps of these sites, I had mentioned  in the footer of this site ( some of the pictures or images are from these sites: Freeipks, Undraw, MS office  pictures garllery )
 
 ### Media
 
-Website Logo was created by my wife [Daisy McGirr](https://github.com/Daisy-McG) using Canva.
+Website Logo was created by my me [Adimora Uju](adimorauju@gmail.com) using logo.com(a free website).
 
-Maps on the adventure page were from google maps timeline.
