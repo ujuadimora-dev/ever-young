@@ -197,7 +197,7 @@ body {
   font-size: var(--fs-button);
   line-height: 1;
   color: var(--clr-neutral-100);
-  background-color: green;
+  background-color:var(--color-bg);
   box-shadow: 0 1.125em 1em -1em var(--clr-accent-500);
 }
  /* the button with with color* i got the idear fron the Utube tutorial*/
@@ -264,19 +264,16 @@ body {
   margin-top:-9% ;
 } 
 
-/* about   element styling*/
+/* about section   element styling*/
 
 #h2-about {
 margin-top:-3%;
 }
 
-
-
 /* for the responsiveness*/
 @media (max-width: 50em) {
   .primary-navigation {
     display: none;
-
     position: fixed;
     padding: var(--size-700);
     inset: 7rem var(--size-400) auto;
@@ -291,7 +288,6 @@ margin-top:-3%;
     content: "";
     position: fixed;
     inset: 0;
-    /* height: 100vh; */
     background-image: linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.8));
   }
 
@@ -358,11 +354,8 @@ margin-top:-3%;
     }
   }
 
-  
 
 /*Blog page syle here*/
-
-
 /* Centered text */
 .text-block {
   position: absolute;
@@ -374,103 +367,40 @@ margin-top:-3%;
   padding: 20px;
   transform: translate(-50%, -50%);
 }
-.blog-column {
+/* Float four columns side by side */
+.column {
   float: left;
-  width: 30%;
-  margin-left: 12.5%;
+  width: 25%;
   padding: 0 10px;
-}
-.blog-column-testimony{
-  float: left;
-  width: 17%;
-  margin-left: 11%;
-  padding: 0 10px;
+  margin-left: 16%;
 }
 
-/* to remove extra left and right margins, due to padding */
-.blog-row{margin: 0 -5px;}
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
 
 /* Clear floats after the columns */
-.blog-row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
-/* Style the blog container */
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
 .blog {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px ;
+  padding: 16px;
   text-align: center;
-  margin-left: 2em;
   background-color: #f1f1f1;
 }
-
-
-
-*
-.blog-row h2,  h3{
-text-align: center;
-
-}
-.blog-row p {
-text-align: center;
-margin-left: 20%;
-
-}
-
-
-/*  Blog Responsivenes at 50em  */
-@media screen and (max-width: 50em) {
-  .blog-column , .blog-column-testimony{
-    width: 40%;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 0;
-  } 
-}
-
-/*  Blog Responsivenes at 320  */
-@media screen and (max-width: 600px ) {
-  .blog-column , .blog-column-testimony, .blog{
-      width: 200%;
-      float: none;
-  
-  }
-  
-  .blog-text{
-    width: 200%;
-    text-align: left;
-    margin-left: 8%;
-  }
-  
-
-  .blog img{
-    width:100vw;
-  }
-
-  #copy-right{
-    text-align: center;
-  }
-  
-  .text-block{
-    display: none;
-  }
-  
-}
-/*  Blog Responsivenes at 600px  */
-@media screen and (max-width: 600px) {
-  .blog-column , .blog-column-testimony{
-    width: 48%;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-  #copy-right{
-    text-align: center;
-  }
-  
-}
-
 
 
 /* footer syling */ 
@@ -497,7 +427,7 @@ margin-left: 20%;
 .social-list {
   display: flex;
   gap: var(--size-600);
-  
+ 
 
 }
 .social-list a{
@@ -512,7 +442,8 @@ margin-left: 20%;
   color: var(--clr-accent-300);
 }
 span{
-  color: orange;
+  color: var(--clr-accent-500);
+  
 }
 
 
@@ -699,7 +630,7 @@ span{
 }
 .signup-form {
   margin:150px 10% 0 0; 
-  color: #fff;
+  color: var(--color-white);
   background-color: var(--color-warning);
   max-width: 400px;
   position: absolute;
@@ -707,21 +638,21 @@ span{
   padding: 30px;
 }
 .signup-form h2 {
-  color: #fafafa;
+  color: var(--color-white);
  margin-bottom: 20px
 
 }
 .text-input{
   background: transparent;
-  color: #fafafa;
+  color: var(--color-white);
   width: 100%;
   height: 25px;
   margin:5px 0 20px 0;
-  border: 1px solid #fafafa;
+  border: 1px solid var(--color-white);
   border-radius: 2px;
 }
 .text-input:hover {
-  border-color: #f16c6b;
+  border-color: var(--clr-accent-300);
 }
 .join-button {
   margin-top:20px;
@@ -729,13 +660,13 @@ span{
   padding: 15px 32px 15px 32px;
   text-align: center;
   font-size: 100%;
-  background-color:#f16c6b;
-  color: #fafafa;
+  background-color:var(--clr-accent-300);
+  color: var(--color-white);
   display: block;
 }
 .join-button:hover {
-  background-color: #fafafa;
-  color: #f16c6b;
+  background-color: var(--color-white);
+  color: var(--clr-accent-300);
 }
 #msg{
   width: 100%;
