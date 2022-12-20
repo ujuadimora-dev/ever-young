@@ -2,7 +2,7 @@
 
  80% of what we consumed on daily basis contribute a lot to the growth and development of man. This means what you eat today will determine what kind of sickness you will have tomorrow or how young youth you will appear. As a result, Ever Young website was created to help people or visitors/ users to determine what kinds of food/fruit/vegetable(organic) or products to eat for some kinds of illness and at the same time products to take for a longer youthfulness or to stop premature ageing.  The site has three pages; Home, Blog and Contact pages.
 . View the live site here
- [here]( https://ujuadimora-dev.github.io/ever-young//)
+ [here]( https://ujuadimora-dev.github.io/ever-young/)
 
 ![Mockup](assets/docs/readme-images/ever-youngpage.png)
 
@@ -102,7 +102,7 @@ The blog consists of ;
 
 ## Design
 
-###  Make sheet Wireframes: In future,it will be no longer with make sheet-
+###  Make sheet Wireframes: In future,it will be no longer with make sheet- It will be done professionally.
 <br>
 Home Page
 <br><br>
@@ -163,7 +163,7 @@ No elements overlap.
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#Unfixed-Bugs)
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. 
 
 Website was also opened on the following devices and no responsive issues were seen:
 
@@ -242,7 +242,7 @@ _Scenario Two - Missing Required Field First Name_ or last Name or Email address
 
 Steps to test:
 
-1. Navigate to [Home - Ever Joung]( https://ujuadimora-dev.github.io/ever-young/l)
+1. Navigate to [Home - Ever Joung]( https://ujuadimora-dev.github.io/ever-young/)
 2. Scroll down to the form and input the following data:
    - First Name:
    - Last Name: Doe
