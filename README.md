@@ -2,7 +2,7 @@
 
  80% of what we consumed on daily basis contribute a lot to the growth and development of man. This means what you eat today will determine what kind of sickness you will have tomorrow or how young youth you will appear. As a result, Ever Young website was created to help people or visitors/ users to determine what kinds of food/fruit/vegetable(organic) or products to eat for some kinds of illness and at the same time products to take for a longer youthfulness or to stop premature ageing.  The site has three pages; Home, Blog and Contact pages.
 . View the live site here
- [here](https://8000-ujuadimoradev-everyoung-osb5vbbmw6p.ws-eu79.gitpod.io/index.html/)
+ [here]( https://ujuadimora-dev.github.io/ever-young//)
 
 ![Mockup](assets/docs/readme-images/ever-youngpage.png)
 
@@ -149,7 +149,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Ever Young](https://ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io//)
+1. Open browser and navigate to [Ever Young]( https://ujuadimora-dev.github.io/ever-young/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -221,7 +221,7 @@ _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to [Everjoung - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
+1. Navigate to [Everjoung - Home Page]( https://ujuadimora-dev.github.io/ever-young/)
 2. click the Contact us page  and fill in the  to the form and input the following data:
    - First Name: Uju
    - Last Name: Ada
@@ -242,7 +242,7 @@ _Scenario Two - Missing Required Field First Name_ or last Name or Email address
 
 Steps to test:
 
-1. Navigate to [Home - Ever Joung](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
+1. Navigate to [Home - Ever Joung]( https://ujuadimora-dev.github.io/ever-young/l)
 2. Scroll down to the form and input the following data:
    - First Name:
    - Last Name: Doe
@@ -262,7 +262,7 @@ _Scenario Three - Missing Required Field Last Name_
 
 Steps to test:
 
-1. Navigate to [Home - Ever Young](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
+1. Navigate to [Home - Ever Young]( https://ujuadimora-dev.github.io/ever-young/)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name:
@@ -282,7 +282,7 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to [Ever young - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
+1. Navigate to [Ever young - Home Page]( https://ujuadimora-dev.github.io/ever-young/)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name: Doe
@@ -301,7 +301,7 @@ _Scenario  - Incorrect email format_
 
 Steps to test:
 
-1. Navigate to [Ever Young - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
+1. Navigate to [Ever Young - Home Page]( https://ujuadimora-dev.github.io/ever-young/)
 2. Scroll down to the form and input the following data:
    - First Name:uju
    - Last Name: Ada
@@ -329,7 +329,7 @@ Testing was performed on the phone number in the contact information section of 
 
 _Steps to test Telephone Number_
 
-1. Navigate to [Ever Young - Home Page](https://8000-ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/index.html)
+1. Navigate to [Ever Young - Home Page]( https://ujuadimora-dev.github.io/ever-young/)
 2. Click the phone number in the footer area (+49 152 140 393914)
 
 Expected:
@@ -386,7 +386,7 @@ The following git commands were used throughout development to push code to the 
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
 
-The live link can be found here - https://ujuadimoradev-everyoung-c57lkydkuuk.ws-eu79.gitpod.io/
+The live link can be found here -  https://ujuadimora-dev.github.io/ever-young/
 
 ### Clone the Repository Code Locally
 
@@ -419,5 +419,5 @@ All contents and  media or image in this site was Fantasy( all are fantasied by 
 
 ### Media
 
-Website Logo was created by my me [Adimora Uju](adimorauju@gmail.com) using logo.com(a free website).
+Website Logo was created by my me [Adimora Uju]( https://ujuadimora-dev.github.io/ever-young/) using logo.com(a free website).
 

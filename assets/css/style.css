@@ -358,14 +358,27 @@ margin-top:-3%;
 /*blog*/
 
 /* Float four columns side by side */
+.text-block h2 {
+  position: relative;
+  top: 70%;
+  left: 50%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(18, 18, 18, 0.5); /* Black background with 0.5 opacity */
+  color: #b6b9b7;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
 .blog-column {
   float: left;
-  width: 45%;
+  width: 30%;
   padding: 0 10px;
+  margin-left: 5%;
 }
 
 /* Remove extra left and right margins, due to padding */
-.blog-row{margin: 0 -5px;}
+.blog-row{margin: 5% -5px;
+  padding: 2% 2%;
+}
 
 /* Clear floats after the columns */
 .blog-row:after {
@@ -374,7 +387,7 @@ margin-top:-3%;
   clear: both;
 }
 
-/* Responsive columns */
+/* Responsive  */
 @media screen and (max-width: 600px) {
   .blog-column {
     width: 100%;
@@ -383,12 +396,13 @@ margin-top:-3%;
   }
 }
 
-/* Style the counter cards */
+/* Style the container blog */
 .blog {
+  width: 20%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px ;
   text-align: center;
-  margin-left: 2em;
+  margin-left: 5em;
   background-color: #f1f1f1;
 }
 .blog-row h2,  h3{
