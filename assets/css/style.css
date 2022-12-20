@@ -357,27 +357,28 @@ margin-top:-3%;
 
 /*blog*/
 
-/* Float four columns side by side */
+
 .text-block h2 {
   position: relative;
   top: 70%;
   left: 50%;
   background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(18, 18, 18, 0.5); /* Black background with 0.5 opacity */
-  color: #b6b9b7;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: var(--color-bg);
   padding: 20px;
   transform: translate(-50%, -50%);
 }
 .blog-column {
   float: left;
-  width: 30%;
+  width: 35%;
   padding: 0 10px;
-  margin-left: 5%;
+  margin-left: 10%;
+  
 }
 
 /* Remove extra left and right margins, due to padding */
-.blog-row{margin: 5% -5px;
-  padding: 2% 2%;
+.blog-row{margin:  -5px;
+  
 }
 
 /* Clear floats after the columns */
@@ -398,19 +399,19 @@ margin-top:-3%;
 
 /* Style the container blog */
 .blog {
-  width: 20%;
+  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px ;
   text-align: center;
-  margin-left: 5em;
   background-color: #f1f1f1;
 }
 .blog-row h2,  h3{
 text-align: center;
 
 }
-.blog-row p {
+.blog p {
 text-align: center;
+padding: 5% 0;
 
 }
 
